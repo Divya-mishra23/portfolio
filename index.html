@@ -1,128 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        background-color: rgb(27, 14, 43);
-        color: white;
-        font-family: "Poppins", sans-serif;
-      }
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 50px;
-        background: rgb(5, 5, 87);
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-      nav ul li {
-        list-style: none;
-        margin: 0 23px;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: white;
-      }
-      nav ul li a:hover {
-        text-decoration: none;
-        color: rgb(121, 179, 226);
-        font-size: 1.02rem;
-      }
-      main hr{
-        border: 0;
-        background-color: darkgray;
-        height: 1.2px;
-        margin: 60px 84px;
-       
-      }
-      .left {
-        font-size: 1.5rem;
-      }
-      .right {
-        font-size: 1rem;
-      }
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 130px 0;
-      }
-      .firstSection > div {
-        width: 30%;
-      }
-      .leftSection {
-        font-size: 2.5rem;
-        margin: 80px;
-      }
-      .rightSection {
-      }
-      .purple {
-        color: blueviolet;
-      }
-      #element{
-        color: rgb(183, 0, 255);
-      }
-      .secondSection{
-        max-width: 80vm;
-        margin: auto;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="left">My Portfolio</div>
-        <div class="right">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Service</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="firstSection">
-        <div class="leftSection">
-          Hi, My name is <span class="purple"> Divya Mishra</span>
-        I am learning         
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(27, 14, 43);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 50px;
+      background: rgb(5, 5, 87);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      text-decoration: none;
+      color: rgb(121, 179, 226);
+      font-size: 1.02rem;
+    }
+
+    main hr {
+      border: 0;
+      background-color: darkgray;
+      height: 1.2px;
+      margin: 60px 84px;
+
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .right {
+      font-size: 1rem;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 130px 0;
+    }
+
+    .firstSection>div {
+      width:28%;
+    }
+
+    .leftSection {
+      font-size: 2.5rem;
+      margin: 80px;
+     
+    }
+
+    .purple {
+      color: blueviolet;
+    }
+
+    .text-gray {
+      color: gray;
+    }
+
+    #element {
+      
+      color: rgb(183, 0, 255);
+    }
+
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
+
+    .secondSection .box {
+      background-color: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondSection .vertical {
+      height: 93px;
+      width: 2px;
+      background-color: white;
+      margin: 0 200px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: 95px;
+      width: 180px;
+    }
+
+    .vertical-desc {
+      color: darkgray;
+      position: relative;
+      top: 95px;
+      width: 180px;
+      font-size: 13px;
+    }
+
+    .vertical-title3 {
+      position: relative;
+      top: 95px;
+      width: 275px;
+    }
+
+    .vertical-desc3 {
+      color: darkgray;
+      position: relative;
+      top: 95px;
+      width: 180px;
+      font-size: 13px;
+    }
+
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -32px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">My Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Service</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple"> Divya Mishra</span>
+        I am learning
         <span id="element"></span>
       </div>
-        <div class="rightSection">
-          <img src="pngwing.com.png" alt="" />
+      <div class="rightSection">
+
+      </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <span class="text-gray">What I Have Learned</span>
+      <h1>Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="">
+          <div class="vertical-title">
+            learning html (2023)
+          </div>
+          <div class="vertical-desc">Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+            Repellat, beatae!</div>
         </div>
-      </section>
-      <hr>
-      <section class="secondSection">
-        <h1>Experience</h1>
-      </section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <div class="vertical">
+          <img class="image-top" src="css.png" alt="">
+          <div class="vertical-title"> learning css (2023) </div>
+          <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, laudantium
+            officiis obcaecati nemo sit excepturi?</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="js.png" alt="">
+          <div class="vertical-title3">
+            learning js(Javascript) (2023)
+          </div>
+          <div class="vertical-desc3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil.</div>
+        </div>
+
+
+    </section>
+  </main>
+  <div class="flex">
+    <div class="footer-first">
+      <h3>Divya's Portfolio</h3>
+    </div>
+    <div class="footer-second"></div>
+    <div class="footer-third"></div>
+    <div class="footer-fourth"></div>
+  </div>
+
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
-    var typed = new Typed('#element', {
-      strings: [' Js', 'React','Many more'],
-      typeSpeed: 50,
+    let typed = new Typed('#element', {
+      strings: [' Javascript', 'React', 'Many more . . .'],
+      typeSpeed: 100,
+     
     });
   </script>
 </body>
-  </body>
+</body>
+
 </html>
