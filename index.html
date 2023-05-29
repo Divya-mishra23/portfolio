@@ -108,17 +108,17 @@
 
     .secondSection .box {
       background-color: white;
-      width: 80vw;
+      width: 82vw;
       height: 2px;
-      margin: 56px 0;
+      margin: 46px 0;
       display: flex;
     }
 
     .secondSection .vertical {
-      height: 93px;
+      height: 96px;
       width: 2px;
       background-color: white;
-      margin: 0 200px;
+      margin: 0 152px;
     }
 
     .vertical-title {
@@ -141,10 +141,23 @@
       width: 275px;
     }
 
+    .vertical-title4 {
+      position: relative;
+      top: 118px;
+      width: 275px;
+    }
+
     .vertical-desc3 {
       color: darkgray;
       position: relative;
       top: 95px;
+      width: 180px;
+      font-size: 13px;
+    }
+    .vertical-desc4 {
+      color: darkgray;
+      position: relative;
+      top: 118px;
       width: 180px;
       font-size: 13px;
     }
@@ -154,6 +167,26 @@
       position: relative;
       top: -32px;
     }
+    .footer{
+      background-color: rgb(24, 24, 90);
+      height: 250px;
+      font-size: 23px;
+    }
+    .footer{
+      display:flex ;
+     padding: 23px 115px;
+     justify-content: space-evenly;
+    }
+    .footer ul{
+      list-style: none;
+    }
+      .footer>div{
+        width: 123px;
+      }
+   .footer-rights{
+    text-align: center;
+    color: darkgrey;
+   }
   </style>
 </head>
 
@@ -166,7 +199,6 @@
           <li><a href="/">Home</a></li>
           <li><a href="/">About</a></li>
           <li><a href="/">Service</a></li>
-          <li><a href="/">Projects</a></li>
           <li><a href="/">Contact Me</a></li>
         </ul>
       </div>
@@ -211,19 +243,37 @@
           </div>
           <div class="vertical-desc3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil.</div>
         </div>
-
-
+        <div class="vertical">
+          <div class="vertical-title4">
+            learning React (2023)
+          </div>
+          <div class="vertical-desc4">Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+            Repellat, beatae!</div>
+        </div>
+      
     </section>
   </main>
-  <div class="flex">
+  <footer>
+  <div class="footer">
     <div class="footer-first">
       <h3>Divya's Portfolio</h3>
     </div>
-    <div class="footer-second"></div>
-    <div class="footer-third"></div>
-    <div class="footer-fourth"></div>
+    <div class="footer-second">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+   
+    
   </div>
-
+  <div class="footer-rights">
+    Copyright &#169 divya'sportfolio.com | All rights reserved 
+  </div>
+</footer>
 
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
