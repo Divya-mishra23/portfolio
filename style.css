@@ -1,0 +1,52 @@
+.navbar a.active {
+  color: rgb(12, 62, 201);
+}
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar.active ul {
+    margin-top: 345px;
+    display: flex;
+    background-color: darkblue;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+  }
+
+  .navbar.active .menu-icon .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .navbar.active .menu-icon .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar.active .menu-icon .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+}

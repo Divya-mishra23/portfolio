@@ -1,4 +1,4 @@
-let typed = new Typed('#element', {
-    strings: [' Js', 'React', 'Many more . . .'],
-    typeSpeed: 50,
-  });
+function toggleMenu() {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('active');
+}
